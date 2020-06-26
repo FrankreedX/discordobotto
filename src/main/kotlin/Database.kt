@@ -13,9 +13,9 @@ class Database {
         "おちんちんがつごいです"
     )
     fun getRandomRoasts():String{
-        return roasts[Random.nextInt()]
+        return roasts[Random.nextInt(0,roasts.size)]
     }
     fun getRandomHentai():String{
-        return hentai[Random.nextInt()]
+        return hentai[Random.nextInt(0,hentai.size)]
     }
 }
